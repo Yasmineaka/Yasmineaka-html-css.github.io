@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding-top: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+background-color: black;
+color: rgb(158, 69, 173);
+}
+
+html {
+    font-size: 62.5%;
+}
+h1 {
+    font-size: 2,6rem;
+}
+li {
+    font-size: 2rem;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+
+}
+
+nav ul {
+    display: flex;
+    flex: 2 2 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding-left: 40rem;
+
+}
+
+#logo {
+     flex: 1 1 40rem;
+     -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color: white;
+}
+
+/* première image*/
+.page {
+    min-height: 90vh;
+    background: url("../Image/VOITURE.webp");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 263px 263px;
+}
+
+.page h2 {
+    padding: 1rem;
+    font-size: bold ;
+    font-size: 900%;
+    color: white;
+}
+h1 {
+    font-size: 20pt;
+}
+h3 {
+    padding: 0,5rem;
+    font-size: 400%;
+}
+h4 {
+    font-size: 350%;
+}
+
+h5 {
+    
+}
+
+.bouton1 {
+    position: absolute;
+    bottom: 0px;
+    right: 200px;
+    background-color: rgb(183, 179, 184);
+    border-radius: 20px;
+   width: 170px;
+   height: 70px;
+   font-size: 300%;
+
+}
+.bouton2 {
+    position: absolute;
+    top: 160px;
+    left: 10px;
+    background-color: rgb(158, 69, 184);
+    border-radius: 10px;
+    width: 170px;
+    height: 70px;
+    font-size: 300%;
+    color: white;
+}
+span {
+    color: rgb(158, 69, 173);
+}
+h6 {
+font-size: 6rem;
+color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/*SERVICES*/
+
+.Services h6 {
+    text-align: center;
+}
+.images {
+    margin: auto;
+    display: flex;
+    position: absolute;
+    object-position: center;
+}
+.A {
+    width: 690px;
+    height: 350px;
+    border-radius: 100px 100px;
+    object-fit: cover;
+    
+}
+.B {
+    width: 690px;
+    height: 350px;
+    border-radius: 100px 100px 100px; 
+}
+.C {
+    width: 690px;
+    height: 350px;
+    border-radius: 100px 100px 100px;
+}
+
+
+/* Images MARQUES*/
+
+.marques  {
+    font-size: bold;
+    font-size: 6rem;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 6.5em;
+}
+
+
+    /*Images des marques*/
+
+.rectangles {
+    display: flex;
+    justify-content: center ;
+    text-align: center;
+
+}
+.rectangles h1,h2 {
+    color: #716666;
+}
+.rectangles h3 {
+    color: #87BDCE;
+}
+
+
+.Voiture {
+    background: white;
+    width: 400px;
+    height: 550px;
+    margin: 8px;
+    border: 1px solid #87BDCE;
+}
+.voiture-image {
+    background: white;
+    background-image: url("../Image/voiture12.png");
+    background-size: cover;
+    height: 235px;
+    margin-bottom: 12px;
+}
+
+.Camion {
+    background: white;
+    width: 400px;
+    height: 550px;
+    margin: 8px;
+    border: 1px solid #87BDCE;
+}
+.camion-image {
+    background: white;
+    background-image: url("../Image/VOITURE2.jpeg");
+    background-size: cover;
+    height: 235px;
+    margin-bottom: 12px;
+}
+
+.Moto {
+    background: white;
+    width: 400px;
+    height: 550px;
+    margin: 8px;
+    border: 1px solid #87BDCE;
+}
+.moto-image {
+    background: white;
+    background-image: url("../Image/S1-moto-electrique-suzuki-estime-qu-il-est-encore-trop-tot-pour-se-lancer-634822.jpeg");
+    background-size: cover;
+    height: 235px;
+    margin-bottom: 12px;
+}
+
+.Car {
+    background: white;
+    width: 400px;
+    height: 550px;
+    margin: 8px;
+    border: 1px solid #87BDCE;
+}
+.car-image {
+    background: white;
+    background-image: url("../Image/CAR.png");
+    background-size: cover;
+    height: 235px;
+    margin-bottom: 12px;
+}
+
+/* images pièces*/
+.pièces {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 350px;  
+    padding: 3cm;
+}
+.D {
+    width: 690px;
+    height: 350px;  
+}
+
+.E {
+    width: 690px;
+    height: 350px;
+}
+
+
+.rectangles .Avendre {
+    cursor: pointer;
+    display: inline;
+    text-decoration: none;
+    color: rgb(164, 162, 168);
+    background-color: rgb(72, 68, 68);
+    padding: 1em 2em;
+}
+.Avendre {
+    
+}
+
+/* FOOTER*/
+ .footer {
+    top: 4cm;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 305px;  
+    padding: 3cm;
+    background-color: #97BBF1;
+    text-align: center;
+}
+   
+ 
+ .1 {
+    max-width: 1170px;
+    background-color: white;
+    margin: auto; 
+ }
+ .2 {
+    display: flex;
+    flex-wrap: wrap;
+   
+ }
+ ul {
+    list-style: none;
+ }
+ .footer-col {
+    width: 1000%;
+    list-style: none;
+    text-decoration: none;
+ }
+ .Réseau-sociaux {
+    top: 15cm;
+    padding: 3.5cm;
+    font-size: 20px;
+    
+ }
+ .fin {
+ top: 4cm;
+ margin: auto;
+ display: flex;
+ justify-content: center;
+ position: relative;
+ height: 1px;  
+ padding: 1cm;
+ background-color: rgb(8, 7, 7);
+ text-align: center;
+ color: white;
+}
